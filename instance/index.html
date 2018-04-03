@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>App</title>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<link rel="stylesheet" href="http://davidtkatz.com/public_css/vue.css">
+	</head>
+	<body>
+		<div id="app">
+			Texto: {{text}}
+		</div>
+		<script>
+			var app = new Vue({
+				el : '#app',
+				data: {
+					text: 'Olá Mundo'
+				}
+			})
+		</script>
+	</body>
+</html>
